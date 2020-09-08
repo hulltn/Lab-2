@@ -23,14 +23,14 @@ class Main {
     System.out.println("orange: " + totalOrange);
     System.out.println("red: " + totalRed);
     System.out.println("yellow: " + totalYellow);
-    int sumMAandM;
-    sumMAandM = totalBlue + totalBrown + totalGreen + totalOrange + totalRed + totalYellow;
-    System.out.println("Sum: " + sumMAandM);
+    double sumMAndM;
+    sumMAndM = totalBlue + totalBrown + totalGreen + totalOrange + totalRed + totalYellow;
+    System.out.println("Sum: " + sumMAndM);
     if (totalBlue > totalBrown && totalGreen > totalOrange)
     System.out.println("Blue over Brown and Green over Orange");
     if (totalBrown <= totalRed)
     System.out.println ("Brown is less than or equal to Red");
-    if (sumMAandM = totalMAndM)
+    if (sumMAndM == totalMAndM)
     System.out.println ("Numbers match");
     }
 }
